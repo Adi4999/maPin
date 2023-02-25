@@ -1,0 +1,26 @@
+POST http://localhost:8800/api/pins HTTP/1.1
+content-type: application/json
+
+{
+   
+    "username": "Kutrio",
+    "title": "New Pin",
+    "desc": "This is a new pin",
+    "rating": 4,
+    "lat": 37.7749,
+    "long": -122.4194
+
+
+}
+###
+GET http://localhost:8800/api/pins HTTP/1.1
+
+###
+POST http://localhost:8800/api/users/register HTTP/1.1
+
+{
+    "username":"Adi 2121",
+    "email":"test0006@gmail.com",
+    "password":"qwqwqwqw"
+}
+
